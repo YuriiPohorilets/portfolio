@@ -10,15 +10,15 @@ export const ProjectsList = () => {
   return (
     <Swiper
       modules={[Scrollbar, A11y, Autoplay]}
-      autoplay={{
-        delay: 3500,
-        disableOnInteraction: false,
-      }}
+      // autoplay={{
+      //   delay: 3500,
+      //   disableOnInteraction: false,
+      // }}
       spaceBetween={40}
       slidesPerView={3}
       grabCursor={true}
       scrollbar={{ draggable: true }}
-      style={{ paddingBottom: '60px' }}
+      style={{ paddingBottom: '50px' }}
     >
       {projectsList.map(({ title, skillSet, img, description, sourceCode, livePageUrl }) => {
         return (
