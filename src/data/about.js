@@ -1,8 +1,8 @@
 export const aboutInfo = {
-  intro: 'I am a front-end developer looking for a full-time job.',
-  main: 'I am a front-end developer looking for a full-time job. I have experience working with JavaScript, React, Redux Toolkit, and Node.js. I am fond of developing and getting new knowledge. I am ambitious, energetic and a quick learner.',
+  intro: 'I am a Front-end developer and it brings me pleasure.',
+  main: "I completed a Master's degree in Computer Science and also completed Full-stack Developer courses. I have experience working with JavaScrip, React, Redux, and Node.js. Also, I did 3 successful team projects.",
   conclusion:
-    'I am a front-end developer looking for a full-time job. I have experience working with JavaScript, React, Redux Toolkit, and Node.js.',
+    'It is important to me to grow as a Front-end Developer and put into practice my knowledge in JavaScript and React.',
   hardSkills: [
     'HTML',
     'CSS',

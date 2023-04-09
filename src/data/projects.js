@@ -5,7 +5,7 @@ export const projectsList = [
     img: require('img/proj-6.webp'),
     skillSet: ['React', 'RTK Query', 'Formik', 'Yup', 'Node.js', 'Express.js', 'Joi'],
     description:
-      'The simple SPA to keep your contacts in one place with the possibility of creating, searching, and removing contact. Form value validation. For authorization, you can use the demo credentials.',
+      'Is a web application created to help search and choose a pet for adoption. Users can view various animal profiles, search by different criteria, save their favorite listings.',
     sourceCode: 'https://github.com/YuriiPohorilets/fs-55-project-3-backend',
     livePageUrl: 'https://kirill-filonchuk.github.io/pet_team02',
   },
