@@ -1,6 +1,14 @@
 import { Typography, Card, CardActions, CardContent, CardMedia, Link, Box } from '@mui/material';
 
-export const ProjectsItem = ({ title, img, skillSet, description, sourceCode, livePageUrl }) => {
+export const ProjectsItem = ({
+  title,
+  type,
+  img,
+  skillSet,
+  description,
+  sourceCode,
+  livePageUrl,
+}) => {
   return (
     <>
       <Card
@@ -22,14 +30,40 @@ export const ProjectsItem = ({ title, img, skillSet, description, sourceCode, li
             {title}
           </Typography>
 
-          <CardMedia
-            sx={{ mb: '8px', height: '180px', borderRadius: '8px' }}
-            image={img}
-            src={img}
-            title={description}
-          />
+          <Box sx={{ position: 'relative' }}>
+            <CardMedia
+              sx={{ mb: '8px', height: '180px', borderRadius: '8px' }}
+              image={img}
+              src={img}
+              title={description}
+            />
+            <Box
+              sx={{
+                position: 'absolute',
+                top: 16,
+                left: 0,
+                p: '8px 16px',
+                color: 'neutral.main',
+                fontFamily: 'Poppins',
+                fontSize: '12px',
+                bgcolor: 'focus.darker',
+                borderBottomRightRadius: '7px',
+                borderTopRightRadius: '7px',
+              }}
+            >
+              {type}
+            </Box>
+          </Box>
 
-          <CardContent sx={{ mb: '16px', p: 0, display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          <CardContent
+            sx={{
+              mb: '16px',
+              p: 0,
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '8px',
+            }}
+          >
             {skillSet.map(skill => {
               return (
                 <Box
@@ -49,7 +83,7 @@ export const ProjectsItem = ({ title, img, skillSet, description, sourceCode, li
             })}
           </CardContent>
 
-          <CardContent sx={{ mb: '32px', p: 0 }}>
+          <CardContent sx={{ '&:last-child': { p: 0 }, mb: '32px', p: 0 }}>
             <Typography
               sx={{ color: 'neutral.main', fontWeight: 300, fontSize: '14px', flexGrow: 1 }}
             >
