@@ -2,7 +2,7 @@ export const projectsList = [
   {
     title: 'Pet support',
     type: 'Team | Backend',
-    img: require('img/proj-6.webp'),
+    img: require('img/proj-7.webp'),
     skillSet: ['React', 'RTK Query', 'Formik', 'Yup', 'Node.js', 'Express.js', 'Joi'],
     description:
       'Is a web application created to help search and choose a pet for adoption. Users can view various animal profiles, search by different criteria, save their favorite listings.',
@@ -13,7 +13,7 @@ export const projectsList = [
   {
     title: 'Phonebook',
     type: 'Personal',
-    img: require('img/proj-5.webp'),
+    img: require('img/proj-6.webp'),
     skillSet: ['React', 'Redux Toolkit', 'Formik', 'Yup'],
     description:
       'The simple SPA to keep your contacts in one place with the possibility of creating, searching, and removing contact. Form value validation. For authorization, you can use the demo credentials.',
@@ -24,13 +24,24 @@ export const projectsList = [
   {
     title: 'Filmoteka',
     type: 'Team | Scrum',
-    img: require('img/proj-4.webp'),
+    img: require('img/proj-5.webp'),
     skillSet: ['HTML', 'SASS', 'JS', 'Axios', 'Parcel', 'REST API'],
     description:
       'The adaptive website for searching popular films with the possibility of watching a trailer, adding to queue for watching or marking as watched film.',
     sourceCode: 'https://github.com/YuriiPohorilets/filmoteka-project-02',
     livePageUrl: 'https://yuriipohorilets.github.io/filmoteka-project-02/',
   },
+
+  {
+    title: 'Image finder',
+    type: 'Personal',
+    img: require('img/proj-4.webp'),
+    skillSet: ['JS', 'Axios', 'Parcel', 'REST API'],
+    description: 'A simple image search app',
+    sourceCode: 'https://github.com/YuriiPohorilets/goit-js-hw-11',
+    livePageUrl: 'https://yuriipohorilets.github.io/goit-js-hw-11/',
+  },
+
   {
     title: 'IceCream',
     type: 'Team | Team lead',
