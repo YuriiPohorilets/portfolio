@@ -11,7 +11,7 @@ export const About = () => {
       <Box
         sx={{
           display: 'flex',
-          gap: '80px',
+          gap: '40px',
           flexWrap: 'wrap',
           justifyContent: 'space-between',
         }}
@@ -43,7 +43,7 @@ export const About = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ flexBasis: '35%' }}>
+        <Box sx={{ flexBasis: '35%', minWidth: '300px' }}>
           <Title>Hard skills</Title>
           <Box component="ul" sx={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
             {hardSkills.map(skill => {

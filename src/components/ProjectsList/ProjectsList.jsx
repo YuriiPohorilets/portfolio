@@ -15,10 +15,20 @@ export const ProjectsList = () => {
         disableOnInteraction: false,
       }}
       spaceBetween={40}
-      slidesPerView={3}
+      slidesPerView={1}
       grabCursor={true}
       scrollbar={{ draggable: true }}
       style={{ paddingBottom: '50px' }}
+      breakpoints={{
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }}
     >
       {projectsList.map(({ title, type, skillSet, img, description, sourceCode, livePageUrl }) => {
         return (

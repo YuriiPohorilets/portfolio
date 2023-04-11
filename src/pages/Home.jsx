@@ -9,8 +9,8 @@ export const Home = () => {
     'https://drive.google.com/file/d/1djD_kJykntesXbu4bwGBdBsOlCYi7H8E/view?usp=share_link';
 
   return (
-    <Box sx={{ display: 'flex', gap: '56px' }}>
-      <Box sx={{ maxWidth: '535px' }}>
+    <Box sx={{ display: 'flex', gap: '26px', flexWrap: 'wrap' }}>
+      <Box>
         <img src={Photo} alt="A man in glasses" width="535" height="609" />
       </Box>
 
